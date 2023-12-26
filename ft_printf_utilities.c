@@ -6,7 +6,7 @@
 /*   By: knarman <knarman@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/25 20:57:55 by knarman           #+#    #+#             */
-/*   Updated: 2023/12/26 00:28:41 by knarman          ###   ########.fr       */
+/*   Updated: 2023/12/26 05:16:26 by knarman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,26 +101,3 @@ int	ft_putstr(char *str)
 	}
 	return (len);
 }
-
-// int	base(unsigned long long int k, char x)
-// {
-// 	int	i;
-// 	int	tmp;
-
-// 	i = 0;
-// 	if (k > 15)
-// 	{
-// 		tmp = base(k / 16, x);
-// 		if (tmp == -1)
-// 			return (-1);
-// 		i += tmp;
-// 	}
-// 	if (k % 16 < 10)
-// 	{
-// 		if (ft_putchar((k % 16) + '0') == -1)
-// 			return (-1);
-// 	}
-// 	else if (ft_putchar((k % 16) + x) == -1)
-// 		return (-1);
-// 	return (++i);
-// }

@@ -6,11 +6,12 @@
 /*   By: knarman <knarman@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/25 20:57:00 by knarman           #+#    #+#             */
-/*   Updated: 2023/12/26 00:37:21 by knarman          ###   ########.fr       */
+/*   Updated: 2023/12/26 05:15:48 by knarman          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+#include <stdarg.h>
 
 int	check(va_list arglist, char c)
 {
